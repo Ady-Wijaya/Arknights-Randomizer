@@ -72,7 +72,7 @@ const operators = [
 	{name: "Warfarin", picture: "chara/warfarin.png", bgx: 54, bgy: 2, rarity: 5, size: 400},
 	{name: "Nightmare", picture: "chara/nightmare.png", bgx: 51, bgy: 8, rarity: 5, size: 400},
 	{name: "Skyfire", picture: "chara/skyfire.png", bgx: 54.2, bgy: 1, rarity: 5, size: 400},
-	{name: "Project Red", picture: "chara/Red.png", bgx: 54, bgy: 8, rarity: 5, size: 400},
+	{name: "Project Red", picture: "chara/red.png", bgx: 54, bgy: 8, rarity: 5, size: 400},
 	{name: "Manticore", picture: "chara/manticore.png", bgx: 43, bgy: 18, rarity: 5, size: 400},
 	{name: "Cliffheart", picture: "chara/cliffheart.png", bgx: 50, bgy: 3, rarity: 5, size: 400},
 	{name: "FEater", picture: "chara/feater.png", bgx: 50, bgy: 8, rarity: 5, size: 400},
