@@ -25,7 +25,7 @@ const operators = [
 
 	//=======
 	//6-Stars
-	//=======
+	//=======	
 	{name: "Ch'en", picture: "chara/chen.png", bgx: 50, bgy: 9, rarity: 6, size: 400},
 	{name: "Siege", picture: "chara/siege.png", bgx: 48, bgy: 10, rarity: 6, size: 430},
 	{name: "Shining", picture: "chara/shining.png", bgx: 49, bgy: 5, rarity: 6, size: 430},
@@ -58,6 +58,10 @@ const operators = [
 	{name: "Blemishine", picture: "chara/blemishine.png", bgx: 43, bgy: 18, rarity: 6, size: 460},
 	{name: "Rosmontis", picture: "chara/rosmontis.png", bgx: 52, bgy: 34, rarity: 6, size: 530},
 	{name: "Mudrock", picture: "chara/mudrock.png", bgx: 47, bgy: 15, rarity: 6, size: 430},
+	{name: "Mountain", picture: "chara/mountain.png", bgx: 49, bgy: 3, rarity: 6, size: 430},
+	{name: "Archetto", picture: "chara/archetto.png", bgx: 38, bgy: 5, rarity: 6, size: 300},
+	{name: "Dusk", picture: "chara/dusk.png", bgx: 49, bgy: 8, rarity: 6, size: 380},
+	{name: "Saga", picture: "chara/saga.png", bgx: 56, bgy: 17, rarity: 6, size: 400},
 
 
 	//=======
@@ -131,6 +135,13 @@ const operators = [
 	{name: "Aosta", picture: "chara/aosta.png", bgx: 48, bgy: 15, rarity: 5, size: 480},
 	{name: "Whislash", picture: "chara/whislash.png", bgx: 50, bgy: 8, rarity: 5, size: 400},
 	{name: "Whisperain", picture: "chara/whisperain.png", bgx: 49, bgy: 8, rarity: 5, size: 450},
+	{name: "Kafka", picture: "chara/kafka.png", bgx: 51, bgy: 7, rarity: 5, size: 380},
+	{name: "Robin", picture: "chara/robin.png", bgx: 48, bgy: 8, rarity: 5, size: 380},
+	{name: "Iris", picture: "chara/iris.png", bgx: 54, bgy: 26, rarity: 5, size: 440},
+	{name: "Tuye", picture: "chara/tuye.png", bgx: 47.5, bgy: 17.5, rarity: 5, size: 380},
+	{name: "Lava", picture: "chara/purgatory.png", bgx: 51, bgy: 10, rarity: 5, size: 380},
+	{name: "Mr. Nothing", picture: "chara/nothing.png", bgx: 49, bgy: 4, rarity: 5, size: 440},
+
 
 	//=======
 	//4-Stars
@@ -179,7 +190,8 @@ const operators = [
 	{name: "Arene", picture: "chara/arene.png", bgx: 51, bgy: 15, rarity: 4, size: 450},	
 	{name: "Bubble", picture: "chara/bubble.png", bgx: 35, bgy: 25, rarity: 4, size: 360},	
 	{name: "Jackie", picture: "chara/jackie.png", bgx: 48, bgy: 9, rarity: 4, size: 390},
-
+	{name: "Pinecone", picture: "chara/pinecone.png", bgx: 51, bgy: 9.5, rarity: 4, size: 350},
+	{name: "Beanstalk", picture: "chara/beanstalk.png", bgx: 43, bgy: 4, rarity: 4, size: 350},
 
 
 	//=======
@@ -219,7 +231,6 @@ const operators = [
 	{name: "Lancet-2", picture: "chara/lancet2.png", bgx: 52, bgy: 200, rarity: 1, size: 150},	
 	{name: "Castle-3", picture: "chara/castle3.png", bgx: 55, bgy: 0, rarity: 1, size: 170},	
 	{name: "Thermal-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},
-
 		
 ]
 
