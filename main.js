@@ -1,27 +1,10 @@
 const operators = [
+
 	/* 
 	=== PLACE OPERATORS HERE IF YOU DON'T WANT THEM TO APPEAR IN RANDOMIZER ===
-	//6-Stars
-	
-
-	//5-Stars
-	
-	
-	//4-Stars
-	
-
-	//3-Stars
-
-
-	//2-Stars
-	
-
-	//1-Star
-
+	=== X-pos HIGH > LEFT, Y-pos HIGH > TOP ===
 	=== STOP HERE ===
 	*/
-	
-
 
 	//=======
 	//6-Stars
@@ -62,7 +45,10 @@ const operators = [
 	{name: "Archetto", picture: "chara/archetto.png", bgx: 38, bgy: 5, rarity: 6, size: 300},
 	{name: "Dusk", picture: "chara/dusk.png", bgx: 49, bgy: 8, rarity: 6, size: 380},
 	{name: "Saga", picture: "chara/saga.png", bgx: 56, bgy: 17, rarity: 6, size: 400},
-
+	{name: "Ash", picture: "chara/ash.png", bgx: 50, bgy: 9, rarity: 6, size: 440},
+	{name: "Frost", picture: "chara/frost.png", bgx: 49, bgy: 11, rarity: 5, size: 440},
+	{name: "Blitz", picture: "chara/blitz.png", bgx: 57, bgy: 5, rarity: 5, size: 440},
+	{name: "Tachanka", picture: "chara/tachanka.png", bgx: 49, bgy: 6, rarity: 5, size: 400},
 
 	//=======
 	//5-Stars
@@ -230,9 +216,12 @@ const operators = [
 	//======
 	{name: "Lancet-2", picture: "chara/lancet2.png", bgx: 52, bgy: 200, rarity: 1, size: 150},	
 	{name: "Castle-3", picture: "chara/castle3.png", bgx: 55, bgy: 0, rarity: 1, size: 170},	
-	{name: "Thermal-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},
-		
+	{name: "Thermal-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},		
+
+
 ]
+
+
 
 function createCard(){
 	let card = document.createElement("div")
