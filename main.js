@@ -218,9 +218,209 @@ const operators = [
 	{name: "Castle-3", picture: "chara/castle3.png", bgx: 55, bgy: 0, rarity: 1, size: 170},	
 	{name: "Thermal-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},		
 
-
 ]
 
+
+//------------
+//---STAGES---
+//------------
+
+
+const stages = [
+	
+	//==========
+	//MAIN STORY
+	//==========
+
+	//Prologue
+	// {chapter: "Prologue", stage: "0-1", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-2", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-3", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-4", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-5", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-6", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-7", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-8", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-9", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-10", cm:"yes"},
+	// {chapter: "Prologue", stage: "0-11", cm:"yes"},
+	
+	//Episode 1
+	// {chapter: "Episode 1", stage: "1-1", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-3", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-4", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-5", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-6", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-7", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-8", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-9", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-10", cm:"yes"},
+	// {chapter: "Episode 1", stage: "1-12", cm:"yes"},
+
+
+	//Episode 2
+	// {chapter: "Episode 2", stage: "2-1", cm:"yes"},
+	// {chapter: "Episode 2", stage: "S2-1", cm:"no"},
+	// {chapter: "Episode 2", stage: "2-2", cm:"yes"},
+	// {chapter: "Episode 2", stage: "S2-2", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-3", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-4", cm:"no"},
+	// {chapter: "Episode 2", stage: "2-3", cm:"yes"},
+	// {chapter: "Episode 2", stage: "2-4", cm:"yes"},
+	// {chapter: "Episode 2", stage: "S2-5", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-6", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-7", cm:"no"},
+	// {chapter: "Episode 2", stage: "2-5", cm:"yes"},
+	// {chapter: "Episode 2", stage: "2-6", cm:"yes"},
+	// {chapter: "Episode 2", stage: "2-7", cm:"yes"},
+	// {chapter: "Episode 2", stage: "S2-8", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-9", cm:"no"},
+	// {chapter: "Episode 2", stage: "2-8", cm:"yes"},
+	// {chapter: "Episode 2", stage: "S2-10", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-11", cm:"no"},
+	// {chapter: "Episode 2", stage: "S2-12", cm:"no"},
+	// {chapter: "Episode 2", stage: "2-10", cm:"yes"},
+
+	//Episode 3
+	// {chapter: "Episode 3", stage: "3-1", cm:"yes"},
+	// {chapter: "Episode 3", stage: "3-2", cm:"yes"},
+	// {chapter: "Episode 3", stage: "3-3", cm:"yes"},
+	// {chapter: "Episode 3", stage: "S3-1", cm:"no"},
+	// {chapter: "Episode 3", stage: "S3-2", cm:"no"},
+	// {chapter: "Episode 3", stage: "3-4", cm:"yes"},
+	// {chapter: "Episode 3", stage: "3-5", cm:"yes"},
+	// {chapter: "Episode 3", stage: "3-6", cm:"yes"},
+	// {chapter: "Episode 3", stage: "3-7", cm:"yes"},
+	// {chapter: "Episode 3", stage: "3-8", cm:"yes"},
+	// {chapter: "Episode 3", stage: "S3-3", cm:"no"},
+	// {chapter: "Episode 3", stage: "S3-4", cm:"no"},
+	// {chapter: "Episode 3", stage: "S3-5", cm:"no"},
+	// {chapter: "Episode 3", stage: "S3-6", cm:"no"},
+	// {chapter: "Episode 3", stage: "S3-7", cm:"no"},
+
+	//Episode 4
+	// {chapter: "Episode 4", stage: "4-1", cm:"yes"},
+	// {chapter: "Episode 4", stage: "4-2", cm:"yes"},
+	// {chapter: "Episode 4", stage: "4-3", cm:"yes"},
+	// {chapter: "Episode 4", stage: "S4-1", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-2", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-3", cm:"no"},
+	// {chapter: "Episode 4", stage: "4-4", cm:"yes"},
+	// {chapter: "Episode 4", stage: "4-5", cm:"yes"},
+	// {chapter: "Episode 4", stage: "4-6", cm:"yes"},
+	// {chapter: "Episode 4", stage: "S4-4", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-5", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-6", cm:"no"},
+	// {chapter: "Episode 4", stage: "4-7", cm:"yes"},
+	// {chapter: "Episode 4", stage: "4-8", cm:"yes"},
+	// {chapter: "Episode 4", stage: "4-9", cm:"yes"},
+	// {chapter: "Episode 4", stage: "S4-7", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-8", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-9", cm:"no"},
+	// {chapter: "Episode 4", stage: "S4-10", cm:"no"},
+	// {chapter: "Episode 4", stage: "4-10", cm:"yes"},
+
+	//Episode 5
+	// {chapter: "Episode 5", stage: "5-1", cm:"yes"},
+	// {chapter: "Episode 5", stage: "5-2", cm:"yes"},
+	// {chapter: "Episode 5", stage: "S5-1", cm:"no"},
+	// {chapter: "Episode 5", stage: "S5-2", cm:"no"},
+	// {chapter: "Episode 5", stage: "5-3", cm:"yes"},
+	// {chapter: "Episode 5", stage: "5-4", cm:"yes"},
+	// {chapter: "Episode 5", stage: "5-5", cm:"yes"},
+	// {chapter: "Episode 5", stage: "5-6", cm:"yes"},
+	// {chapter: "Episode 5", stage: "S5-3", cm:"no"},
+	// {chapter: "Episode 5", stage: "S5-4", cm:"no"},
+	// {chapter: "Episode 5", stage: "5-7", cm:"yes"},
+	// {chapter: "Episode 5", stage: "5-8", cm:"yes"},
+	// {chapter: "Episode 5", stage: "5-9", cm:"yes"},
+	// {chapter: "Episode 5", stage: "S5-5", cm:"no"},
+	// {chapter: "Episode 5", stage: "S5-6", cm:"no"},
+	// {chapter: "Episode 5", stage: "S5-7", cm:"no"},
+	// {chapter: "Episode 5", stage: "S5-8", cm:"no"},
+	// {chapter: "Episode 5", stage: "S5-9", cm:"no"},
+	// {chapter: "Episode 5", stage: "5-10", cm:"yes"},
+	// {chapter: "Episode 5", stage: "H5-1", cm:"no"},
+	// {chapter: "Episode 5", stage: "H5-2", cm:"no"},
+	// {chapter: "Episode 5", stage: "H5-3", cm:"no"},
+	// {chapter: "Episode 5", stage: "H5-4", cm:"no"},
+
+	//Episode 6
+	// {chapter: "Episode 6", stage: "6-1", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-2", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-3", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-4", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-5", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-8", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-9", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-10", cm:"yes"},
+	// {chapter: "Episode 6", stage: "S6-1", cm:"no"},
+	// {chapter: "Episode 6", stage: "S6-2", cm:"no"},
+	// {chapter: "Episode 6", stage: "6-11", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-12", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-14", cm:"yes"},
+	// {chapter: "Episode 6", stage: "6-15", cm:"yes"},
+	// {chapter: "Episode 6", stage: "S6-3", cm:"no"},
+	// {chapter: "Episode 6", stage: "S6-4", cm:"no"},
+	// {chapter: "Episode 6", stage: "6-16", cm:"yes"},
+	// {chapter: "Episode 6", stage: "H6-1", cm:"no"},
+	// {chapter: "Episode 6", stage: "H6-2", cm:"no"},
+	// {chapter: "Episode 6", stage: "H6-3", cm:"no"},
+	// {chapter: "Episode 6", stage: "H6-4", cm:"no"},
+
+	//Episode 7
+	// {chapter: "Episode 7", stage: "7-2", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-3", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-4", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-5", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-6", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-8", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-9", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-10", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-11", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-12", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-13", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-14", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-15", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-16", cm:"yes"},
+	// {chapter: "Episode 7", stage: "S7-1", cm:"no"},
+	// {chapter: "Episode 7", stage: "S7-2", cm:"no"},
+	// {chapter: "Episode 7", stage: "7-17", cm:"yes"},
+	// {chapter: "Episode 7", stage: "7-18", cm:"yes"},
+	// {chapter: "Episode 7", stage: "H7-1", cm:"no"},
+	// {chapter: "Episode 7", stage: "H7-2", cm:"no"},
+	// {chapter: "Episode 7", stage: "H7-3", cm:"no"},
+	// {chapter: "Episode 7", stage: "H7-4", cm:"no"},
+
+	// Episode 8
+	{chapter: "Episode 8", stage: "R8-1", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-2", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-3", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-4", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-5", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-6", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-7", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-8", cm:"yes"},
+	{chapter: "Episode 8", stage: "M8-6", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-9", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-10", cm:"yes"},
+	{chapter: "Episode 8", stage: "M8-7", cm:"yes"},
+	{chapter: "Episode 8", stage: "R8-11", cm:"yes"},
+	{chapter: "Episode 8", stage: "M8-8", cm:"yes"},
+	{chapter: "Episode 8", stage: "JT8-2", cm:"yes"},
+	{chapter: "Episode 8", stage: "JT8-3", cm:"yes"},
+	{chapter: "Episode 8", stage: "H8-1", cm:"no"},
+	{chapter: "Episode 8", stage: "H8-2", cm:"no"},
+	{chapter: "Episode 8", stage: "H8-3", cm:"no"},
+	{chapter: "Episode 8", stage: "H8-4", cm:"no"},
+
+	//==========
+	//Supplies
+	//==========
+	/*
+	
+	*/
+]
 
 
 function createCard(){
@@ -309,6 +509,7 @@ function randomizeOperators(){
 	random.sort(function(a, b){return a.random-b.random})
 }
 
+
 function randomizeCard(i){
 	let entry = random.pop()
 	chosen[i] = entry
@@ -325,6 +526,7 @@ function randomizeCard(i){
 let shuffleTimer
 let shuffleInterval
 
+
 function handleButtonClick(){
 	clearTimeout(shuffleTimer)
 	clearInterval(shuffleInterval)
@@ -335,63 +537,46 @@ function handleButtonClick(){
 	shuffleInterval = setInterval(generateOperators, 100)
 }
 
+
+let modal = document.getElementById("modal")
+let closeBtn = document.getElementById("closeBtn")
+let map = document.getElementById("map")
+let challengeModeCheck = document.getElementById("challengeMode")
+let mapButton = document.getElementById("mapBtn")
+
 function prts(){
-	alert("Under Development!\nDiscord: XomeZest#8952");
+	modal.style.display = "block"
+	closeBtn.onclick = function(){
+		modal.style.display = "none"
+	}
+	window.onclick = function(event) {
+  		if (event.target == modal) {
+    	modal.style.display = "none"
+  		}
+	}
 }
 
-let disclaimer = document.getElementById("disclaimer");
+function randomMap(){
+	let i = Math.floor(Math.random() * stages.length)
+	modalText.innerText = stages[i].chapter + " > " + stages[i].stage
+	map.src = `stages/${stages[i].chapter}/${stages[i].stage}.png`
+	if(stages[i].cm == "yes"){
+		if(Math.floor(Math.random() * 6) == 0)
+		{
+			challengeModeCheck.style.display = "block"
+		}
+		else{
+			challengeModeCheck.style.display = "none"
+		}
+	}
+	else{
+		challengeModeCheck.style.display = "none"
+	}
+}
 
-function scroll(){
-
+mapButton.onclick = function(){
+	randomMap()
 }
 
 console.log("Find me on YouTube: XomeZest")
 console.log("Any suggestions or bugs? Sent me a message through Discord: XomeZest#8952")
-
-
-/* XomeZest Ready
-	{name: "Ch'en", picture: "chara/chen.png", bgx: 50, bgy: 9, rarity: 6, size: 400},
-	{name: "Siege", picture: "chara/siege.png", bgx: 48, bgy: 10, rarity: 6, size: 430},
-	{name: "Shining", picture: "chara/shining.png", bgx: 49, bgy: 5, rarity: 6, size: 430},
-	{name: "Nightingale", picture: "chara/nightingale.png", bgx: 49, bgy: 22, rarity: 6, size: 430},
-	{name: "Ifrit", picture: "chara/ifrit.png", bgx: 47, bgy: -2, rarity: 6, size: 350},
-	{name: "Eyjafjalla", picture: "chara/eyja.png", bgx: 50, bgy: 8, rarity: 6, size: 360},
-	{name: "Exusiai", picture: "chara/exu.png", bgx: 46, bgy: 7, rarity: 6, size: 390},	
-	{name: "Angelina", picture: "chara/angelina.png", bgx: 43, bgy: 5, rarity: 6, size: 380},
-	{name: "SilverAsh", picture: "chara/sa.png", bgx: 51, bgy: 4.5, rarity: 6, size: 430},
-	{name: "Hoshiguma", picture: "chara/hoshi.png", bgx: 51, bgy: 10, rarity: 6, size: 400},
-	{name: "Saria", picture: "chara/saria.png", bgx: 47, bgy: 0, rarity: 6, size: 400},
-	{name: "Skadi", picture: "chara/skadi.png", bgx: 50, bgy: 3, rarity: 6, size: 390},	
-	{name: "Schwarz", picture: "chara/schwarz.png", bgx: 50, bgy: 4, rarity: 6, size: 400},
-	{name: "Hellagur", picture: "chara/hellagur.png", bgx: 48, bgy: 5, rarity: 6, size: 430},	
-	{name: "Blaze", picture: "chara/blaze.png", bgx: 38, bgy: 10, rarity: 6, size: 430},
-	{name: "Nian", picture: "chara/nian.png", bgx: 46.5, bgy: 19, rarity: 6, size: 430},
-	{name: "W", picture: "chara/w.png", bgx: 52, bgy: 8, rarity: 6, size: 430},
-	{name: "Rosa", picture: "chara/rosa.png", bgx: 51, bgy: 18, rarity: 6, size: 430},
-	{name: "Surtr", picture: "chara/surtr.png", bgx: 42, bgy: 22, rarity: 6, size: 500},
-	{name: "Mudrock", picture: "chara/mudrock.png", bgx: 47, bgy: 15, rarity: 6, size: 430},
-	{name: "Amiya", picture: "chara/amiya.png", bgx: 48, bgy: 34, rarity: 5, size: 450},
-	{name: "Indra", picture: "chara/indra.png", bgx: 51, bgy: 2, rarity: 5, size: 450},
-	{name: "Texas", picture: "chara/texas.png", bgx: 50, bgy: 5, rarity: 5, size: 400},
-	{name: "Ptilopsis", picture: "chara/ptilopsis.png", bgx: 51, bgy: 6, rarity: 5, size: 400},
-	{name: "Silence", picture: "chara/silence.png", bgx: 49, bgy: 8, rarity: 5, size: 400},
-	{name: "Project Red", picture: "chara/Red.png", bgx: 54, bgy: 8, rarity: 5, size: 400},
-	{name: "Manticore", picture: "chara/manticore.png", bgx: 43, bgy: 18, rarity: 5, size: 400},
-	{name: "Cliffheart", picture: "chara/cliffheart.png", bgx: 50, bgy: 3, rarity: 5, size: 400},
-	{name: "FEater", picture: "chara/feater.png", bgx: 50, bgy: 8, rarity: 5, size: 400},
-	{name: "Blue Poison", picture: "chara/bp.png", bgx: 48, bgy: 8, rarity: 5, size: 400},
-	{name: "Meteorite", picture: "chara/meteorite.png", bgx: 51, bgy: 0, rarity: 5, size: 380},
-	{name: "Pramanix", picture: "chara/pramanix.png", bgx: 57, bgy: 4, rarity: 5, size: 380},
-	{name: "Specter", picture: "chara/specter.png", bgx: 57, bgy: 7.8, rarity: 5, size: 400},
-	{name: "Lappland", picture: "chara/lappland.png", bgx: 49, bgy: 6, rarity: 5, size: 400},
-	{name: "Liskarm", picture: "chara/liskarm.png", bgx: 51, bgy: 8, rarity: 5, size: 400},
-	{name: "Executor", picture: "chara/executor.png", bgx: 48, bgy: 4, rarity: 5, size: 430},
-	{name: "Elysium", picture: "chara/ely.png", bgx: 42, bgy: 15, rarity: 5, size: 430},
-	{name: "Scene", picture: "chara/scene.png", bgx: 46, bgy: 3, rarity: 5, size: 360},
-	{name: "April", picture: "chara/april.png", bgx: 48, bgy: 15, rarity: 5, size: 345},
-	{name: "Whisperain", picture: "chara/whisperain.png", bgx: 49, bgy: 8, rarity: 5, size: 450},
-	{name: "Leizi", picture: "chara/leizi.png", bgx: 47, bgy: 17, rarity: 5, size: 450},
-	{name: "Gravel", picture: "chara/gravel.png", bgx: 46.5, bgy: 3, rarity: 4, size: 380},
-	{name: "Myrtle", picture: "chara/myrtle.png", bgx: 51, bgy: 28, rarity: 4, size: 400},	
-	{name: "Jaye", picture: "chara/jaye.png", bgx: 49, bgy: 19, rarity: 4, size: 430}, 
-*/
