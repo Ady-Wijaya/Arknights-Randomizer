@@ -306,7 +306,7 @@ div[class*="rarity-"]{
 }
 
 
-#sorts{
+/*#sorts{
 	width: 100%;
 	padding-top: 1%;
 	padding-right: 0.5%;
@@ -349,7 +349,7 @@ div[class*="rarity-"]{
 .sortButtons.descending:after{
 	transform: rotate(90deg);
 	visibility: visible;
-}
+}*/
 
 .disclaimer{
 	bottom: 1.5%;

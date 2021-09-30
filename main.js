@@ -46,9 +46,7 @@ const operators = [
 	{name: "Dusk", picture: "chara/dusk.png", bgx: 49, bgy: 8, rarity: 6, size: 380},
 	{name: "Saga", picture: "chara/saga.png", bgx: 56, bgy: 17, rarity: 6, size: 400},
 	{name: "Ash", picture: "chara/ash.png", bgx: 50, bgy: 9, rarity: 6, size: 440},
-	{name: "Frost", picture: "chara/frost.png", bgx: 49, bgy: 11, rarity: 5, size: 440},
-	{name: "Blitz", picture: "chara/blitz.png", bgx: 57, bgy: 5, rarity: 5, size: 440},
-	{name: "Tachanka", picture: "chara/tachanka.png", bgx: 49, bgy: 6, rarity: 5, size: 400},
+	{name: "Passenger", picture: "chara/passenger.png", bgx: 65.5, bgy: 6, rarity: 6, size: 500},
 
 
 	//=======
@@ -127,7 +125,12 @@ const operators = [
 	{name: "Iris", picture: "chara/iris.png", bgx: 54, bgy: 26, rarity: 5, size: 440},
 	{name: "Tuye", picture: "chara/tuye.png", bgx: 47.5, bgy: 17.5, rarity: 5, size: 380},
 	{name: "Lava", picture: "chara/purgatory.png", bgx: 51, bgy: 10, rarity: 5, size: 380},
-	{name: "Mr. Nothing", picture: "chara/nothing.png", bgx: 49, bgy: 4, rarity: 5, size: 440},
+	{name: "Mr. Nothing", picture: "chara/nothing.png", bgx: 49, bgy: 4, rarity: 5, size: 440},	
+	{name: "Frost", picture: "chara/frost.png", bgx: 49, bgy: 11, rarity: 5, size: 440},
+	{name: "Blitz", picture: "chara/blitz.png", bgx: 57, bgy: 5, rarity: 5, size: 440},
+	{name: "Tachanka", picture: "chara/tachanka.png", bgx: 49, bgy: 6, rarity: 5, size: 400},	
+	{name: "Toddifons", picture: "chara/toddifons.png", bgx: 59, bgy: 19, rarity: 5, size: 410},
+	{name: "Heavyrain", picture: "chara/heavyrain.png", bgx: 47, bgy: 12, rarity: 5, size: 440},
 
 
 	//=======
@@ -481,10 +484,11 @@ for (let i = 0; i < 14; i++){
 		card = createLogo()
 	} else if(i == 13) {
 		card = createButton()
-	} else { 
-		// let index = i<6?(i%2==0?i/2:(i+1)/2+5):(i%2==0?i/2-4+9:(i+1)/2-1)
+	} else {
 		let index = i<6?i:i-1
-		card.querySelector(".solorandom").addEventListener('click', function(){generateOperator(index)})
+		card.querySelector(".solorandom").addEventListener('click', function(){
+			generateOperator(index)
+		})
 		cards[index] = card
 	}
 	cardHolder.appendChild(card)
@@ -502,12 +506,12 @@ function generateOperators(){
 		randomizeCard(i)
 	}
 
-	if(sortNameState != 0){
-		sortCardsByName()
-	}
-	else if(sortRankState != 0){
-		sortCardsByRank()
-	}
+	// if(sortNameState != 0){
+	// 	sortCardsByName()
+	// }
+	// else if(sortRankState != 0){
+	// 	sortCardsByRank()
+	// }
 }
 
 function generateOperator(i){
@@ -553,116 +557,116 @@ function handleButtonClick(){
 	shuffleInterval = setInterval(generateOperators, 100)
 }
 
-let sortName = document.getElementById("sortName")
-let sortRank = document.getElementById("sortRank")
-let sortNameState = 1;
-sortName.classList.toggle("ascending", true)
-let sortRankState = 0;
+// let sortName = document.getElementById("sortName")
+// let sortRank = document.getElementById("sortRank")
+// let sortNameState = 0;
+// let sortRankState = -1;
+// sortRank.classList.toggle("descending", true)
 
-sortName.addEventListener("click", function(){
-	if(sortNameState == 0){
-		sortRankState = 0
-		sortRank.classList.toggle("ascending", false)
-		sortRank.classList.toggle("descending", false)
-		sortNameState = 1
-		sortName.classList.toggle("ascending", true)
-		sortName.classList.toggle("descending", false)
-	}
-	else if(sortNameState == 1){
-		sortNameState = -1
-		sortName.classList.toggle("descending", true)
-		sortName.classList.toggle("ascending", false)
-	}
-	else{
-		sortNameState = 1
-		sortName.classList.toggle("ascending", true)
-		sortName.classList.toggle("descending", false)
-	}
-	sortCardsByName()
-})
+// sortName.addEventListener("click", function(){
+// 	if(sortNameState == 0){
+// 		sortRankState = 0
+// 		sortRank.classList.toggle("ascending", false)
+// 		sortRank.classList.toggle("descending", false)
+// 		sortNameState = 1
+// 		sortName.classList.toggle("ascending", true)
+// 		sortName.classList.toggle("descending", false)
+// 	}
+// 	else if(sortNameState == 1){
+// 		sortNameState = -1
+// 		sortName.classList.toggle("descending", true)
+// 		sortName.classList.toggle("ascending", false)
+// 	}
+// 	else{
+// 		sortNameState = 1
+// 		sortName.classList.toggle("ascending", true)
+// 		sortName.classList.toggle("descending", false)
+// 	}
+// 	sortCardsByName()
+// })
 
-sortRank.addEventListener("click", function(){
-	if(sortRankState == 0){
-		sortNameState = 0
-		sortName.classList.toggle("ascending", false)
-		sortName.classList.toggle("descending", false)
-		sortRankState = -1
-		sortRank.classList.toggle("descending", true)
-		sortRank.classList.toggle("asscending", false)
-	}
-	else if(sortRankState == -1){
-		sortRankState = 1
-		sortRank.classList.toggle("descending", false)
-		sortRank.classList.toggle("ascending", true)
+// sortRank.addEventListener("click", function(){
+// 	if(sortRankState == 0){
+// 		sortNameState = 0
+// 		sortName.classList.toggle("ascending", false)
+// 		sortName.classList.toggle("descending", false)
+// 		sortRankState = -1
+// 		sortRank.classList.toggle("descending", true)
+// 		sortRank.classList.toggle("asscending", false)
+// 	}
+// 	else if(sortRankState == -1){
+// 		sortRankState = 1
+// 		sortRank.classList.toggle("descending", false)
+// 		sortRank.classList.toggle("ascending", true)
 
-	}
-	else{
-		sortRankState = -1
-		sortRank.classList.toggle("ascending", false)
-		sortRank.classList.toggle("descending", true)
-	}
-	sortCardsByRank()
-})
+// 	}
+// 	else{
+// 		sortRankState = -1
+// 		sortRank.classList.toggle("ascending", false)
+// 		sortRank.classList.toggle("descending", true)
+// 	}
+// 	sortCardsByRank()
+// })
 
-function sortCardsByName(){
-	const chosenOperators = []
-	for(let i=0;i<chosen.length;i++){
-		const operator = operators[chosen[i].i]
-		chosenOperators.push(operator)
-	}
-	if(sortNameState == 1){
-		chosenOperators.sort(function(a, b){
-			return a.name.localeCompare(b.name)
-		})
-	}
-	else if(sortNameState == -1){
-		chosenOperators.sort(function(a, b){
-			return b.name.localeCompare(a.name)
-		})
-	}
-	for(let i=0;i<chosenOperators.length;i++){
-		const operator = chosenOperators[i]
-		let index = i%2 == 0?i/2:(i+1)/2+5
-		// 0 1 2 3 4 5 6 7 8 9  10 11
-		// 0 6 1 7 2 8 3 9 4 10  5 11
-		cards[index].style = `background: url(${operator.picture}) no-repeat; background-position: ${operator.bgx}% ${operator.bgy}%; background-size: ${operator.size}%;`
-		cards[index].querySelector(".nameplate .name").innerText = operator.name
-		for (let o = 1; o <= 6; o++){
-			cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${o}`, false)
-		}
-		cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${operator.rarity}`, true)
-		cards[index].querySelector(".solorandom").classList.toggle("hidden", false)
-	}
-}
+// function sortCardsByName(){
+// 	const chosenOperators = []
+// 	for(let i=0;i<chosen.length;i++){
+// 		const operator = operators[chosen[i].i]
+// 		chosenOperators.push(operator)
+// 	}
+// 	if(sortNameState == 1){
+// 		chosenOperators.sort(function(a, b){
+// 			return a.name.localeCompare(b.name)
+// 		})
+// 	}
+// 	else if(sortNameState == -1){
+// 		chosenOperators.sort(function(a, b){
+// 			return b.name.localeCompare(a.name)
+// 		})
+// 	}
+// 	for(let i=0;i<chosenOperators.length;i++){
+// 		const operator = chosenOperators[i]
+// 		let index = i%2 == 0?i/2:(i+1)/2+5
+// 		// 0 1 2 3 4 5 6 7 8 9  10 11
+// 		// 0 6 1 7 2 8 3 9 4 10  5 11
+// 		cards[index].style = `background: url(${operator.picture}) no-repeat; background-position: ${operator.bgx}% ${operator.bgy}%; background-size: ${operator.size}%;`
+// 		cards[index].querySelector(".nameplate .name").innerText = operator.name
+// 		for (let o = 1; o <= 6; o++){
+// 			cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${o}`, false)
+// 		}
+// 		cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${operator.rarity}`, true)
+// 		cards[index].querySelector(".solorandom").classList.toggle("hidden", false)
+// 	}
+// }
 
-function sortCardsByRank(){
-	const chosenOperators = []
-	for(let i=0;i<chosen.length;i++){
-		const operator = operators[chosen[i].i]
-		chosenOperators.push(operator)
-	}
-	if(sortRankState == 1){
-		chosenOperators.sort(function(a, b){
-			return a.rarity - b.rarity
-		})
-	}
-	else if(sortRankState == -1){
-		chosenOperators.sort(function(a, b){
-			return b.rarity - a.rarity
-		})
-	}
-	for(let i=0;i<chosenOperators.length;i++){
-		const operator = chosenOperators[i]
-		let index = i%2 == 0?i/2:(i+1)/2+5
-		cards[index].style = `background: url(${operator.picture}) no-repeat; background-position: ${operator.bgx}% ${operator.bgy}%; background-size: ${operator.size}%;`
-		cards[index].querySelector(".nameplate .name").innerText = operator.name
-		for (let o = 1; o <= 6; o++){
-			cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${o}`, false)
-		}
-		cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${operator.rarity}`, true)
-		cards[index].querySelector(".solorandom").classList.toggle("hidden", false)
-	}
-}
+// function sortCardsByRank(){
+// 	const chosenOperators = []
+// 	for(let i=0;i<chosen.length;i++){
+// 		const operator = operators[chosen[i].i]
+// 		chosenOperators.push(operator)
+// 	}
+// 	if(sortRankState == 1){
+// 		chosenOperators.sort(function(a, b){
+// 			return a.rarity - b.rarity
+// 		})
+// 	}
+// 	else if(sortRankState == -1){
+// 		chosenOperators.sort(function(a, b){
+// 			return b.rarity - a.rarity
+// 		})
+// 	}
+// 	for(let i=0;i<chosenOperators.length;i++){
+// 		const operator = chosenOperators[i]
+// 		let index = i%2 == 0?i/2:(i+1)/2+5
+// 		cards[index].style = `background: url(${operator.picture}) no-repeat; background-position: ${operator.bgx}% ${operator.bgy}%; background-size: ${operator.size}%;`
+// 		cards[index].querySelector(".nameplate .name").innerText = operator.name
+// 		for (let o = 1; o <= 6; o++){
+// 			cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${o}`, false)
+// 		}
+// 		cards[index].querySelector(".nameplateshadow").classList.toggle(`rarity-${operator.rarity}`, true)
+// 		cards[index].querySelector(".solorandom").classList.toggle("hidden", false)
+// 	}
+// }
 
 let modal = document.getElementById("modal")
 let closeBtn = document.getElementById("closeBtn")
