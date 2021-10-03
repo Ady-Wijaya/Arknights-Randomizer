@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
   	<title>Arknights Randomizer</title>
   	<link rel="icon" href="assets/w.png" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/randomizerStageModal.css" />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
 
   <body>
-
   	<!-- Credit -->
   	<div class="credit">
   		<div> Made By: </div>
-  		<div id="tag"> XomeZest & MrKiddo </div>
-  		<div><a href="https://www.youtube.com/channel/UC6wYkjLDvdndAVreYR-0Lpg" target="_blank">YouTube Link</a></div>
-      <div id="updateLog">Update - Passenger, Toddifons, Heavyrain</div>
+  		<div id="tag"> XomeZest &amp; MrKiddo </div>
+  		<div id="hyperlink">
+        <a href="https://www.youtube.com/channel/UC6wYkjLDvdndAVreYR-0Lpg" target="_blank">
+          <img id="youtube" src='assets/ytico.png' alt="YouTube" />
+        </a>
+        <br>
+        <a href="https://docs.google.com/spreadsheets/d/11fRqDtxWfvbMjjCOdAUtDSB7-LSxgO6sQ5SGQA5zDNQ/edit?usp=sharing" target="_blank">
+          <img id="spreadsheet" src='assets/ssico.png' alt="Spreadsheet" />
+        </a>
+      </div>
+      <!-- <div id="updateLog">Update - Randomized Stage, Sorting System</div> -->
   	</div>
     <!-- Sorting System -->
-    <!-- <div id="sorts">
+    <div id="sorts">
       <div id="sortRank" class="sortButtons">Rarity</div>
       <div id="sortName" class="sortButtons">Name</div>
-    </div> -->
+    </div>
     <!-- Cards / Operators -->
     <div id="cardHolder">
     </div>
@@ -29,26 +37,42 @@
     	DISCLAIMER! This is a fan-made creation. All character arts belongs to Arknights.
     </div>
     <!-- Randomizer Stage -->
-    <div class="modal" id="modal">
-    	<div id="modalContent">
-    		<div id="closeBtn">&times;</div>
-        <div id="header">
-          <div id="modalTitle">Random Stage</div>
-          <span id="modalText"></span>
-          <div id="challengeMode">Challenge Mode</div>
+    <div id="randomizerStage" class="modalBackground">
+        <div id="randomizerStageSidePanel">
+            <img id="randomizerStageSidePanelBtn" src="assets/MCBtn.png" />
+            <div class="checkboxes">
+              <div class="checkboxGroup">
+                <label for="checkboxMain">Main</label>
+                <input id="checkboxMain" type="checkbox" checked />
+              </div>
+              <div class="checkboxGroup">
+                <label for="checkboxEvent">Event</label>
+                <input id="checkboxEvent" type="checkbox" />
+              </div>
+              <div class="checkboxGroup">
+                <label for="checkboxSupplies">Supplies</label>
+                <input id="checkboxSupplies" type="checkbox" />
+              </div>
+            </div>
         </div>
-    		<div id="mapContainer">
-          <img id="map" src="assets/pp.jpg"/>
-          <img id="loadingPicture"/>
-          <img id="mapBtn" src="assets/mapButton.png"/>
+        <div id="randomizerStageModal">
+          <div class="closeBtn">&times;</div> 
+          <div class="header">
+            <div class="chapterName">&nbsp;</div>
+            <div class="stageName">STAGE RANDOMIZER</div>
+            <div class="challengeMode">Challenge Mode</div>
+          </div>
+          <div class="map">
+            <img src="assets/pp.jpg">
+            <div class="generateBtn">
+                <img src="assets/mapButton.png"/>
+            </div>
+          </div>
+          <a class="credits" href="https://mrfz.fandom.com/wiki/Arknights_Wiki" target="_blank">Credits to Arknights Fandom Wiki</a>
         </div>
-        <div id="mapCredit">
-          <a href="https://mrfz.fandom.com/wiki/Arknights_Wiki" target="_blank">Credit to mrfz.fandom.com/wiki/Arknights_Wiki</a>
-        </div>    		
-    	</div>
-    </div>
-    
-    <script type="text/javascript" src="main.js"></script>
+    </div>    
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/randomizerStage.js"></script>
   </body>
 
 </html>
