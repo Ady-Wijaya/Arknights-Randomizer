@@ -1,6 +1,6 @@
 const mainStages = [	
 	//==========
-	//MAIN STORY
+	// MAIN STORY
 	//==========
 
 	//Episode 3
@@ -141,7 +141,7 @@ const mainStages = [
 const eventStages = [
 	
 	//==========
-	//Events
+	// Events
 	//==========
 
 	//Grani Events
@@ -215,6 +215,9 @@ const eventStages = [
 	{category: "event", chapter: "Darknights Memoir", stage: "DM-EX-6", cm:"yes"},
 	{category: "event", chapter: "Darknights Memoir", stage: "DM-MO-1", cm:"no"},
 
+	//==========
+	// Temporary
+	//==========
 
 	//A Walk in The Dust
 	{category: "event", chapter: "A Walk in The Dust", stage: "WD-1", cm:"no"},
@@ -225,13 +228,25 @@ const eventStages = [
 	{category: "event", chapter: "A Walk in The Dust", stage: "WD-6", cm:"no"},
 	{category: "event", chapter: "A Walk in The Dust", stage: "WD-7", cm:"no"},
 	{category: "event", chapter: "A Walk in The Dust", stage: "WD-8", cm:"no"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-1", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-2", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-3", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-4", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-5", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-6", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-7", cm:"yes"},
+	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-8", cm:"yes"},
+
+	//==========
+	// Waiting
+	//==========
 
 ]
 
 const supplyStages = [
 
 	//==========
-	//Supply
+	// Supply
 	//==========
 	{category:"supply", chapter: "Chip", stage: "PR-A-1", cm:"no"},
 	{category:"supply", chapter: "Chip", stage: "PR-A-2", cm:"no"},
