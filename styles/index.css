@@ -185,12 +185,12 @@ div[class*="rarity-"]{
 
 @font-face{
 	font-family: "Mono";
-	src: url("../font/Nau Sea.otf");
+	src: url("../Font/Nau Sea.otf");
 }
 
 @font-face{
 	font-family: "Minion";
-	src: url("../font/Minion.ttf");
+	src: url("../Font/Minion.ttf");
 }
 
 .hidden{
