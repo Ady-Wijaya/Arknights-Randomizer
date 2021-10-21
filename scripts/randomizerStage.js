@@ -237,6 +237,27 @@ const eventStages = [
 	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-7", cm:"yes"},
 	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-8", cm:"yes"},
 
+
+	//Under Tides
+	{category: "event", chapter: "Under Tides", stage: "SV-1", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-2", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-3", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-4", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-5", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-6", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-7", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-8", cm:"no"},
+	{category: "event", chapter: "Under Tides", stage: "SV-9", cm:"no"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-1", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-2", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-3", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-4", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-5", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-6", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-7", cm:"yes"},
+	// {category: "event", chapter: "Under Tides", stage: "SV-EX-8", cm:"yes"},
+
+
 	//==========
 	// Waiting
 	//==========

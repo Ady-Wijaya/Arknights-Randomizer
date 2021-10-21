@@ -47,9 +47,9 @@ const operators = [
 	{name: "Saga", picture: "chara/saga.png", bgx: 56, bgy: 17, rarity: 6, size: 400},
 	{name: "Ash", picture: "chara/ash.png", bgx: 50, bgy: 9, rarity: 6, size: 440},
 	{name: "Passenger", picture: "chara/passenger.png", bgx: 65.5, bgy: 6, rarity: 6, size: 500},
-	// {name: "Gladiia", picture: "chara/gladiia.png", bgx: 49.5, bgy: 25, rarity: 6, size: 550},
-	// {name: "Skadi", picture: "chara/corrupting.png", bgx: 50, bgy: 12, rarity: 6, size: 400},
-	// {name: "Kal'tsit", picture: "chara/kaltsit.png", bgx: 48, bgy: 10, rarity: 6, size: 420},
+	{name: "Gladiia", picture: "chara/gladiia.png", bgx: 49.5, bgy: 25, rarity: 6, size: 550},
+	{name: "Skadi", picture: "chara/corrupting.png", bgx: 50, bgy: 12, rarity: 6, size: 400},
+	{name: "Kal'tsit", picture: "chara/kaltsit.png", bgx: 48, bgy: 10, rarity: 6, size: 420},
 
 	//=======
 	//5-Stars
@@ -133,7 +133,7 @@ const operators = [
 	{name: "Tachanka", picture: "chara/tachanka.png", bgx: 49, bgy: 6, rarity: 5, size: 400},
 	{name: "Toddifons", picture: "chara/toddifons.png", bgx: 59, bgy: 19, rarity: 5, size: 410},
 	{name: "Heavyrain", picture: "chara/heavyrain.png", bgx: 47, bgy: 12, rarity: 5, size: 440},
-	// {name: "Akafuyu", picture: "chara/akafuyu.png", bgx: 43, bgy: 12, rarity: 5, size: 420},
+	{name: "Akafuyu", picture: "chara/akafuyu.png", bgx: 43, bgy: 12, rarity: 5, size: 420},
 
 	//=======
 	//4-Stars
@@ -223,7 +223,7 @@ const operators = [
 	//======
 	{name: "Lancet-2", picture: "chara/lancet2.png", bgx: 52, bgy: 200, rarity: 1, size: 150},	
 	{name: "Castle-3", picture: "chara/castle3.png", bgx: 55, bgy: 0, rarity: 1, size: 170},	
-	{name: "Thermal-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},		
+	{name: "THRM-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},		
 
 ]
 
