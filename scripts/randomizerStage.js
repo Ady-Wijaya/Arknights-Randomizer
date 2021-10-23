@@ -215,28 +215,27 @@ const eventStages = [
 	{category: "event", chapter: "Darknights Memoir", stage: "DM-EX-6", cm:"yes"},
 	{category: "event", chapter: "Darknights Memoir", stage: "DM-MO-1", cm:"no"},
 
+	//A Walk in The Dust
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-1", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-2", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-3", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-4", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-5", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-6", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-7", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-8", cm:"no"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-1", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-2", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-3", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-4", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-5", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-6", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-7", cm:"yes"},
+	{category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-8", cm:"yes"},
+
 	//==========
 	// Temporary
 	//==========
-
-	//A Walk in The Dust
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-1", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-2", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-3", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-4", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-5", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-6", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-7", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-8", cm:"no"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-1", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-2", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-3", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-4", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-5", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-6", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-7", cm:"yes"},
-	// {category: "event", chapter: "A Walk in The Dust", stage: "WD-EX-8", cm:"yes"},
-
 
 	//Under Tides
 	{category: "event", chapter: "Under Tides", stage: "SV-1", cm:"no"},
