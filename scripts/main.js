@@ -1,11 +1,5 @@
 const operators = [
-
-	/* 
-	=== PLACE OPERATORS HERE IF YOU DON'T WANT THEM TO APPEAR IN RANDOMIZER ===
-
-	=== STOP HERE ===
-	*/
-
+	
 	//=======
 	//6-Stars
 	//=======	
