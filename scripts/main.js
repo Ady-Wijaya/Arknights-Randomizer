@@ -219,6 +219,39 @@ const operators = [
 	{name: "Castle-3", picture: "chara/castle3.png", bgx: 55, bgy: 0, rarity: 1, size: 170},	
 	{name: "THRM-EX", picture: "chara/thermalex.png", bgx: 52, bgy: 40, rarity: 1, size: 200},		
 
+	/* 
+	Unrealeased Operators
+	
+	-6 Stars-
+	{name: "Carnelian", picture: "chara/carnelian.png", bgx: 49, bgy: 8, rarity: 6, size: 460},
+	{name: "Pallas", picture: "chara/pallas.png", bgx: 44, bgy: 20, rarity: 6, size: 420},
+	{name: "Ch'en", picture: "chara/chalter.png", bgx: 58, bgy: 16, rarity: 6, size: 460},
+	{name: "Mizuki", picture: "chara/mizuki.png", bgx: 50, bgy: 17, rarity: 6, size: 400},
+	{name: "Saileach", picture: "chara/saileach.png", bgx: 51, bgy: 30.5, rarity: 6, size: 600},
+	{name: "Fartooth", picture: "chara/fartooth.png", bgx: 51.5, bgy: 31, rarity: 6, size: 490},
+	{name: "Nearl", picture: "chara/nearlter.png", bgx: 64, bgy: 14.5, rarity: 6, size: 470},
+	{name: "Flametail", picture: "chara/flametail.png", bgx: 60, bgy: 17, rarity: 6, size: 440},
+	
+	-5 Stars-
+	{name: "Kirara", picture: "chara/kirara.png", bgx: 48, bgy: 15, rarity: 5, size: 390},
+	{name: "Bena", picture: "chara/bena.png", bgx: 55, bgy: 17, rarity: 5, size: 350},
+	{name: "La Pluma", picture: "chara/pluma.png", bgx: 58, bgy: 18, rarity: 5, size: 460},
+	{name: "Tequila", picture: "chara/tequila.png", bgx: 50, bgy: 10, rarity: 5, size: 440},
+	{name: "Mulberry", picture: "chara/mulberry.png", bgx: 50, bgy: 15, rarity: 5, size: 390},
+	{name: "Ashlock", picture: "chara/ashlock.png", bgx: 40, bgy: 33, rarity: 5, size: 510},
+	{name: "Corroserum", picture: "chara/corroserum.png", bgx: 49.5, bgy: 10, rarity: 5, size: 420},
+	{name: "Honeyberry", picture: "chara/honeyberry.png", bgx: 39, bgy: 12, rarity: 5, size: 350},
+	{name: "Wild Mane", picture: "chara/wildmane.png", bgx: 50.5, bgy: 36, rarity: 5, size: 540},
+
+	-4 Stars-
+	{name: "Indigo", picture: "chara/indigo.png", bgx: 48.5, bgy: 16, rarity: 4, size: 430},
+	{name: "Roberta", picture: "chara/roberta.png", bgx: 51, bgy: 7, rarity: 4, size: 400},
+	{name: "Pudding", picture: "chara/pudding.png", bgx: 43, bgy: 24, rarity: 4, size: 440},
+
+	-1 Star-
+	{name: "Justice-K", picture: "chara/jk.png", bgx: 40, bgy: 35, rarity: 1, size: 260},
+	*/
+
 ]
 
 function createCard(){
